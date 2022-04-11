@@ -1,0 +1,20 @@
+// pages/video/video.js
+Page({
+    data:{
+        movieList:[{
+            create_time:1649682571,
+            title:'海边随拍',
+            src:'http://vodkgeyttp9c.vod.126.net/vodkgeyttp8/pTIBYllp_2454289645_shd.mp4?ts=1649682504&rid=47115DC667964F5C42BDE925D7219E80&rl=3&rs=tmHkAiJQEzzYEpxGmFuJyYwKNDEIODPO&sign=b6a0b3af9c9e84e1fc569f5d8de75283&ext=NnR5gMvHcZNcbCz592mDGUGuDOFN18isir07K1EOfL3EgR205oLuHcCawsPbmlbIz8FwJWleDNrcrghtHFip6s3FZQ%2FTqY7wwTQZTx38R2SeOZjkfL5FG7myIjf%2FMo%2BR4NHwhn1Pmbjx9%2FJuuA%2FyBDIfNiBNuDJ32l2f1UtWgEHFL4fn37j5jQhhj%2FYjfF4gTbp8eALckEpdnfQwSiGNAA%3D%3D'
+        },
+        {
+            create_time:1649682571,
+            title:'勿忘安心',
+            src:'http://vodkgeyttp9c.vod.126.net/vodkgeyttp8/pTIBYllp_2454289645_shd.mp4?ts=1649682504&rid=47115DC667964F5C42BDE925D7219E80&rl=3&rs=tmHkAiJQEzzYEpxGmFuJyYwKNDEIODPO&sign=b6a0b3af9c9e84e1fc569f5d8de75283&ext=NnR5gMvHcZNcbCz592mDGUGuDOFN18isir07K1EOfL3EgR205oLuHcCawsPbmlbIz8FwJWleDNrcrghtHFip6s3FZQ%2FTqY7wwTQZTx38R2SeOZjkfL5FG7myIjf%2FMo%2BR4NHwhn1Pmbjx9%2FJuuA%2FyBDIfNiBNuDJ32l2f1UtWgEHFL4fn37j5jQhhj%2FYjfF4gTbp8eALckEpdnfQwSiGNAA%3D%3D'
+        },
+        {
+            create_time:1649682571,
+            title:'点滴记忆',
+            src:'http://vodkgeyttp9c.vod.126.net/vodkgeyttp8/pTIBYllp_2454289645_shd.mp4?ts=1649682504&rid=47115DC667964F5C42BDE925D7219E80&rl=3&rs=tmHkAiJQEzzYEpxGmFuJyYwKNDEIODPO&sign=b6a0b3af9c9e84e1fc569f5d8de75283&ext=NnR5gMvHcZNcbCz592mDGUGuDOFN18isir07K1EOfL3EgR205oLuHcCawsPbmlbIz8FwJWleDNrcrghtHFip6s3FZQ%2FTqY7wwTQZTx38R2SeOZjkfL5FG7myIjf%2FMo%2BR4NHwhn1Pmbjx9%2FJuuA%2FyBDIfNiBNuDJ32l2f1UtWgEHFL4fn37j5jQhhj%2FYjfF4gTbp8eALckEpdnfQwSiGNAA%3D%3D'
+        }]
+    }
+})

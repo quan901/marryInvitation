@@ -1,0 +1,39 @@
+// pages/danmu/danmu.js
+Page({
+    data:{
+        src:'http://vodkgeyttp9c.vod.126.net/vodkgeyttp8/pTIBYllp_2454289645_shd.mp4?ts=1649682504&rid=47115DC667964F5C42BDE925D7219E80&rl=3&rs=tmHkAiJQEzzYEpxGmFuJyYwKNDEIODPO&sign=b6a0b3af9c9e84e1fc569f5d8de75283&ext=NnR5gMvHcZNcbCz592mDGUGuDOFN18isir07K1EOfL3EgR205oLuHcCawsPbmlbIz8FwJWleDNrcrghtHFip6s3FZQ%2FTqY7wwTQZTx38R2SeOZjkfL5FG7myIjf%2FMo%2BR4NHwhn1Pmbjx9%2FJuuA%2FyBDIfNiBNuDJ32l2f1UtWgEHFL4fn37j5jQhhj%2FYjfF4gTbp8eALckEpdnfQwSiGNAA%3D%3D',
+        danmuList:[{
+            text:'第1s出现的弹幕',
+            color:'#ff0000',
+            time:1
+        },
+        {
+            text:'第3s出现的弹幕',
+            color:'#ff0000',
+            time:3
+        },
+        {
+            text:'第5s出现的弹幕',
+            color:'#ff0000',
+            time:5
+        },
+        ]
+    },
+    videoContext:null,
+    onReady:function(){
+        this.videoContext=wx.createVideoContext('myVideo',this)
+    },
+    inputValue:'',
+    bindInputBlur:function(e){
+        console.log(e)
+        this.inputValue=e.detail.value
+    },
+    bindSendDanmu:function(){
+        console.log(this.videoContext)
+        var test= this.videoContext.sendDanmu({
+            text:this.inputValue,
+            color:'#f90'
+        })
+    }
+
+})
